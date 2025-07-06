@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-await mongoose.connect("mongodb+srv://nikath39:JJJ27%40*nath@cluster0.h9x1j.mongodb.net/Paytm")
+await mongoose.connect("mongodb+srv://username:password@cluster0.h9x1j.mongodb.net/Paytm")
 
 const UserSchema = new mongoose.Schema({
     username: String,
